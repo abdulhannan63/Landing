@@ -1,0 +1,59 @@
+.App {
+  /* width: 1728px;
+  height: 895px; */
+  /* top: -1468px; */
+  /* left: -910px; */
+  /* gap: 0px; */
+  
+  background: linear-gradient(180deg, #373e44 -100%, #191b1f 100%);
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  color: #a3adb2;
+  /* min-width: ; */
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+@media (max-width: 1024px) {
+  .App {
+    width: 100%;
+    height: 120vh;
+  }
+
+  .leftDiv{
+    /* top: ; */
+    display: none;
+  }
+  .rightDiv .upper {
+    top: 1rem;
+    left: 56px;
+  }
+  .rightDiv .lower {
+    left: 56px;
+  }
+  .rightDiv hr {
+    top: 362px;
+    left: 96px;
+  }
+  .hrLine {
+    left: 96px;
+
+  }
+  .lower{
+    top: 388px !important;
+  }
+}
+@media (max-width: 768px) {
+  /* .App {
+    width: 768px;
+    height: 895px;
+    
+  } */
+
+  .rightDiv .upper {
+    left: 56px;
+  }
+  .rightDiv .lower {
+    left: 56px;
+  }
+}

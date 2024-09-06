@@ -1,0 +1,129 @@
+.leftDiv {
+  width: 836px;
+  position: absolute;
+  height: 689px;
+  top: 96px;
+  left: 29px;
+  gap: 0px;
+  border-radius: 27px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(97, 97, 97, 0.82);
+  /* box-shadow: 8px 8px black; */
+  border: 1px solid rgba(150, 190, 231, 1);
+}
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightDiv .upper {
+   width: 720px;
+  height: 316px;
+  
+  left: 922px;
+  gap: 0px;
+  border-radius: 18.89px;
+  opacity: 0px;
+  background: rgba(54, 60, 67, 1);
+}
+.lowerT {
+  width: 652px;
+  height: 475px;
+  top: 436px;
+  left: 953px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rightDiv hr {
+  width: 612px;
+  height: 4px;
+  top: 433px;
+  left: 976px;
+  gap: 0px;
+  position: absolute;
+  border-radius: 2.46px;
+  opacity: 0px;
+  display: flex;
+  background: linear-gradient(
+      180deg,
+      rgba(40, 40, 40, 0.1) 0%,
+      rgba(248, 248, 248, 0.1) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+
+  box-shadow: 0px 4px 4px 0px #00000054;
+}
+.rightDiv .lower {
+  width: 720px;
+  height: 330px;
+  top: 453px;
+  position: absolute;
+  left: 922px;
+  gap: 0px;
+  border-radius: 18.89px;
+  opacity: 0px;
+  background: rgba(54, 60, 67, 1);
+  box-shadow: 5.67px 5.67px 3.78px 0px rgba(0, 0, 0, 0.4);
+}
+
+.hrLine {
+  width: 612px;
+  height: 4px;
+  top: 805px;
+  left: 976px;
+  gap: 0px;
+  position: absolute;
+  border-radius: 2.46px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+      180deg,
+      rgba(40, 40, 40, 0.1) 0%,
+      rgba(248, 248, 248, 0.1) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  box-shadow: 0px 4px 4px 0px #00000054;
+}
+ul {
+  width: Hug (597px) px;
+  height: Hug (49px) px;
+  top: 119px;
+  left: 981px;
+  gap: 6px;
+  opacity: 0px;
+}
+
+/* Vector */
+
+.quesSym {
+  width: 24px;
+  height: 159.69pxpx;
+  top: 116px;
+  left: 934px;
+  gap: 105px;
+  opacity: 0px;
+}
+
+
+/* for scroll bar */
+/* #style-2 {
+  overflow-y: scroll;
+  position: revert;
+  width: 720px;
+  height: 316px;
+  top: 96px;
+  left: 922px;
+  gap: 0px;
+  opacity: 0px;
+} */
+/* .content {
+  overflow-y: scroll;
+  width: 611px;
+
+  height: 175px;
+  position: static;
+  top: 210px;
+  left: 975px;
+  gap: 0px;
+  opacity: 0px;
+} */
